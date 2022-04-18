@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "TG",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+      "G": { "type": "block", "code": "game:glass-*", "name": "glass" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "glasspane-clear-{glass}-ver-ew", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "TG",
+    "ingredients": {
+      "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+      "G": { "type": "block", "code": "game:glassslab-*-down-free", "name": "glass" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "glasspane-clear-{glass}-ver-ew", "quantity": 2 }
+  }
+]

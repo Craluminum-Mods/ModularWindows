@@ -1,0 +1,11 @@
+{
+  "name": "Leaded Glass Pane to Frameless",
+  "ingredientPattern": "TG",
+  "ingredients": {
+    "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+    "G": { "type": "block", "code": "game:glasspane-leaded-*-ew", "name": "wood", "returnedStack": { "type": "item", "code": "game:plank-{wood}" } }
+  },
+  "width": 1,
+  "height": 2,
+  "output": { "type": "block", "code": "glasspane-leaded-plain-ver-ew" }
+}

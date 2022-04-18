@@ -1,0 +1,12 @@
+{
+  "name": "Cross P to A Sides",
+  "ingredientPattern": "TB",
+  "ingredients": {
+    "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+    "B": { "type": "block", "code": "windowframe-cross-p-*-ns", "name": "wood" }
+  },
+  "recipeGroup": 3,
+  "width": 1,
+  "height": 2,
+  "output": { "type": "block", "code": "windowframe-a-{wood}-west", "quantity": 2 }
+}

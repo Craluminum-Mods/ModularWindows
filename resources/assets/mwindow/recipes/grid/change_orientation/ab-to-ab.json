@@ -1,0 +1,38 @@
+[
+  {
+    "name": "AB Sides to AB Bottom",
+    "ingredientPattern": "F__,___,___",
+    "ingredients": {
+      "F": { "type": "block", "code": "windowframe-*-west", "name": "varpluswood" }
+    },
+    "shapeless": true,
+    "recipeGroup": 2,
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "windowframe-{varpluswood}-up-ns" }
+  },
+  {
+    "name": "AB Bottom to AB Top",
+    "ingredientPattern": "F__,___,___",
+    "ingredients": {
+      "F": { "type": "block", "code": "windowframe-*-up-ns", "name": "varpluswood" }
+    },
+    "shapeless": true,
+    "recipeGroup": 2,
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "windowframe-{varpluswood}-down-ns" }
+  },
+  {
+    "name": "AB Top to AB Sides",
+    "ingredientPattern": "F__,___,___",
+    "ingredients": {
+      "F": { "type": "block", "code": "windowframe-*-down-ns", "name": "varpluswood" }
+    },
+    "shapeless": true,
+    "recipeGroup": 2,
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "windowframe-{varpluswood}-west" }
+  }
+]

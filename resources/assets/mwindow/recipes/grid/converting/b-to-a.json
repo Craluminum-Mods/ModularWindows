@@ -1,0 +1,11 @@
+{
+  "name": "B Sides to A Sides",
+  "ingredientPattern": "_F_,___,___",
+  "ingredients": {
+    "F": { "type": "block", "code": "windowframe-b-*-west", "name": "wood" }
+  },
+  "recipeGroup": 2,
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "windowframe-a-{wood}-west" }
+}

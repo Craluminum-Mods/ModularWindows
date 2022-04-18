@@ -1,0 +1,11 @@
+{
+  "name": "Cross P",
+  "ingredientPattern": "B__,_T_,__B",
+  "ingredients": {
+    "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+    "B": { "type": "item", "code": "game:plank-*", "name": "wood" }
+  },
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "windowframe-cross-p-{wood}-ns" }
+}

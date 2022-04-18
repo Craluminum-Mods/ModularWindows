@@ -1,0 +1,22 @@
+[
+  {
+    "ingredientPattern": "GL",
+    "ingredients": {
+      "G": { "type": "block", "code": "game:glass-*", "name": "glass" },
+      "L": { "type": "item", "code": "game:ingot-lead" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "glasspane-leaded-{glass}-ver-ew", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "GL",
+    "ingredients": {
+      "G": { "type": "block", "code": "game:glassslab-*-down-free", "name": "glass", "quantity": 2 },
+      "L": { "type": "item", "code": "game:ingot-lead" }
+    },
+    "width": 2,
+    "height": 1,
+    "output": { "type": "block", "code": "glasspane-leaded-{glass}-ver-ew", "quantity": 4 }
+  }
+]

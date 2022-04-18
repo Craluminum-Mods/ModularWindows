@@ -1,0 +1,12 @@
+{
+  "name": "B Sides",
+  "ingredientPattern": "BTB,_B_,_B_",
+  "ingredients": {
+    "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+    "B": { "type": "item", "code": "game:plank-*", "name": "wood" }
+  },
+  "recipeGroup": 1,
+  "width": 3,
+  "height": 3,
+  "output": { "type": "block", "code": "windowframe-b-{wood}-west", "quantity": 4 }
+}

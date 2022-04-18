@@ -1,0 +1,12 @@
+{
+  "name": "A Sides to Cross P",
+  "ingredientPattern": "F_,_F",
+  "ingredients": {
+    "F": { "type": "block", "code": "windowframe-a-*-west", "name": "wood" }
+  },
+  "shapeless": true,
+  "recipeGroup": 2,
+  "width": 2,
+  "height": 2,
+  "output": { "type": "block", "code": "windowframe-cross-p-{wood}-ns" }
+}
